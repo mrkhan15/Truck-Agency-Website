@@ -72,4 +72,7 @@ If you are using this in your portfolio, highlight these points:
 
 ## Author
 
-Built as a front-end showcase project for portfolio and demo use.
+Anas Khan  
+Data Engineer | Web Developer  
+Portfolio: https://anaskhan15.netlify.app  
+LinkedIn: https://www.linkedin.com/in/anas-khan
