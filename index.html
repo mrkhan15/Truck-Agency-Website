@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northstar Truck Agency</title>
+    <meta
+      name="description"
+      id="metaDescription"
+      content="Northstar Truck Agency provides dependable freight coordination, fleet support, and route planning for growing businesses."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container">
+          <nav class="nav">
+            <a
+              class="brand"
+              href="#home"
+              aria-label="Northstar Truck Agency home"
+              data-i18n-aria-label="brandAria"
+            >
+              <span class="brand-mark">N</span>
+              <span class="brand-text" data-i18n="brand">Northstar Truck Agency</span>
+            </a>
+
+            <div class="nav-actions">
+              <button
+                class="lang-toggle"
+                type="button"
+                aria-label="Switch language"
+                aria-pressed="false"
+                data-i18n-aria-label="langToggleAria"
+              >
+                <span class="lang-option lang-option-en">EN</span>
+                <span class="lang-thumb"></span>
+                <span class="lang-option lang-option-es">ES</span>
+              </button>
+
+              <button
+                class="nav-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="site-menu"
+                aria-label="Open navigation"
+                data-i18n-aria-label="navToggleAria"
+              >
+                <span></span>
+                <span></span>
+              </button>
+
+              <div class="nav-menu" id="site-menu">
+                <a href="#services" data-i18n="navServices">Services</a>
+                <a href="#fleet" data-i18n="navFleet">Fleet</a>
+                <a href="#process" data-i18n="navProcess">Process</a>
+                <a href="#contact" data-i18n="navContact">Contact</a>
+                <a class="button button-dark nav-cta" href="#contact" data-i18n="navCta">Request a Quote</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="home">
+        <section class="hero section">
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <p class="eyebrow" data-i18n="heroEyebrow">Precision logistics for modern freight</p>
+              <h1 data-i18n="heroTitle">Reliable truck agency support built for fast-moving supply chains.</h1>
+              <p class="hero-text" data-i18n="heroText">
+                We connect shippers with dependable fleet operations, route planning,
+                dispatch coordination, and on-time delivery execution across regional
+                and long-haul lanes.
+              </p>
+              <div class="hero-actions">
+                <a class="button button-dark" href="#contact" data-i18n="heroPrimary">Start Your Shipment</a>
+                <a class="button button-light" href="#services" data-i18n="heroSecondary">Explore Services</a>
+              </div>
+
+              <div class="hero-stats">
+                <article>
+                  <strong>24/7</strong>
+                  <span data-i18n="statOne">Dispatch oversight</span>
+                </article>
+                <article>
+                  <strong>98%</strong>
+                  <span data-i18n="statTwo">On-time movement rate</span>
+                </article>
+                <article>
+                  <strong>320+</strong>
+                  <span data-i18n="statThree">Managed monthly loads</span>
+                </article>
+              </div>
+            </div>
+
+            <div class="hero-panel reveal reveal-delay">
+              <div class="panel-card">
+                <p class="panel-label" data-i18n="panelLabel">Live lane coverage</p>
+                <div class="route-chip-list">
+                  <span>Los Angeles to Phoenix</span>
+                  <span>Dallas to Atlanta</span>
+                  <span>Seattle to Reno</span>
+                </div>
+                <div class="panel-divider"></div>
+                <div class="panel-metrics">
+                  <article>
+                    <span data-i18n="metricOne">Average response</span>
+                    <strong>12 min</strong>
+                  </article>
+                  <article>
+                    <span data-i18n="metricTwo">Dedicated coordinators</span>
+                    <strong>14</strong>
+                  </article>
+                </div>
+                <div class="fleet-visual" aria-hidden="true">
+                  <div class="fleet-line"></div>
+                  <div class="fleet-cab"></div>
+                  <div class="fleet-trailer"></div>
+                  <div class="fleet-wheel wheel-front"></div>
+                  <div class="fleet-wheel wheel-back"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-soft" id="services">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow" data-i18n="servicesEyebrow">What we handle</p>
+              <h2 data-i18n="servicesTitle">End-to-end trucking support without the operational drag.</h2>
+            </div>
+
+            <div class="card-grid services-grid">
+              <article class="info-card reveal">
+                <h3 data-i18n="serviceOneTitle">Freight Coordination</h3>
+                <p data-i18n="serviceOneText">
+                  From pickup scheduling to delivery sequencing, we keep every load
+                  aligned with your timeline and customer commitments.
+                </p>
+              </article>
+              <article class="info-card reveal">
+                <h3 data-i18n="serviceTwoTitle">Dispatch Management</h3>
+                <p data-i18n="serviceTwoText">
+                  Real-time dispatch communication, route adjustments, and driver
+                  support designed to reduce idle time and missed windows.
+                </p>
+              </article>
+              <article class="info-card reveal">
+                <h3 data-i18n="serviceThreeTitle">Route Planning</h3>
+                <p data-i18n="serviceThreeText">
+                  Data-led routing for regional and interstate lanes, with cost,
+                  efficiency, and delivery performance balanced together.
+                </p>
+              </article>
+              <article class="info-card reveal">
+                <h3 data-i18n="serviceFourTitle">Fleet Sourcing</h3>
+                <p data-i18n="serviceFourText">
+                  Access vetted carrier capacity for dry van, refrigerated, and
+                  dedicated transport needs across changing demand cycles.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="fleet">
+          <div class="container fleet-grid">
+            <div class="section-heading reveal">
+              <p class="eyebrow" data-i18n="fleetEyebrow">Built for scale</p>
+              <h2 data-i18n="fleetTitle">Flexible fleet options matched to the freight, not forced into a template.</h2>
+              <p class="section-text" data-i18n="fleetText">
+                Whether you need dependable weekly linehaul coverage or rapid spot
+                support, we structure the right equipment and team around the load.
+              </p>
+            </div>
+
+            <div class="fleet-cards">
+              <article class="fleet-card reveal">
+                <span class="fleet-tag" data-i18n="fleetCardOneTag">Dry Van</span>
+                <h3 data-i18n="fleetCardOneTitle">General freight movement</h3>
+                <p data-i18n="fleetCardOneText">Consistent coverage for retail, packaged goods, and palletized cargo.</p>
+              </article>
+              <article class="fleet-card reveal">
+                <span class="fleet-tag" data-i18n="fleetCardTwoTag">Reefer</span>
+                <h3 data-i18n="fleetCardTwoTitle">Temperature-sensitive loads</h3>
+                <p data-i18n="fleetCardTwoText">Cold chain support with monitored movement and tighter scheduling windows.</p>
+              </article>
+              <article class="fleet-card reveal">
+                <span class="fleet-tag" data-i18n="fleetCardThreeTag">Dedicated</span>
+                <h3 data-i18n="fleetCardThreeTitle">Recurring route programs</h3>
+                <p data-i18n="fleetCardThreeText">Fixed-lane capacity for businesses that need reliability every week.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-soft" id="process">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow" data-i18n="processEyebrow">How it works</p>
+              <h2 data-i18n="processTitle">A simple operating model that keeps freight moving with less friction.</h2>
+            </div>
+
+            <div class="process-grid">
+              <article class="process-step reveal">
+                <span>01</span>
+                <h3 data-i18n="processOneTitle">Scope the load</h3>
+                <p data-i18n="processOneText">We map freight type, lane, timing, and delivery priorities before execution starts.</p>
+              </article>
+              <article class="process-step reveal">
+                <span>02</span>
+                <h3 data-i18n="processTwoTitle">Assign capacity</h3>
+                <p data-i18n="processTwoText">Our team aligns the right truck, driver support, and dispatch structure to the lane.</p>
+              </article>
+              <article class="process-step reveal">
+                <span>03</span>
+                <h3 data-i18n="processThreeTitle">Track and report</h3>
+                <p data-i18n="processThreeText">Milestone visibility, issue response, and status reporting keep every shipment accountable.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section testimonials">
+          <div class="container testimonial-grid">
+            <div class="section-heading reveal">
+              <p class="eyebrow" data-i18n="testimonialsEyebrow">Client confidence</p>
+              <h2 data-i18n="testimonialsTitle">Trusted by businesses that care about timing, visibility, and consistency.</h2>
+            </div>
+            <article class="quote-card reveal">
+              <p data-i18n="quoteOneText">
+                "Northstar streamlined our regional freight schedule and gave us a
+                single team that actually owns the outcome. That changed our delivery rhythm."
+              </p>
+              <strong data-i18n="quoteOneAuthor">Operations Director, West Coast Distribution</strong>
+            </article>
+            <article class="quote-card reveal">
+              <p data-i18n="quoteTwoText">
+                "Fast response, clean communication, and dependable execution. We use
+                them whenever a lane needs structure, not chaos."
+              </p>
+              <strong data-i18n="quoteTwoAuthor">Logistics Manager, Fresh Goods Supplier</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="section cta-section" id="contact">
+          <div class="container cta-card reveal">
+            <div>
+              <p class="eyebrow" data-i18n="ctaEyebrow">Move freight with confidence</p>
+              <h2 data-i18n="ctaTitle">Need a trucking partner that stays responsive from dispatch to delivery?</h2>
+            </div>
+            <div class="cta-actions">
+              <a class="button button-dark" href="mailto:hello@northstaragency.com">hello@northstaragency.com</a>
+              <a class="button button-light" href="tel:+18005550199">+1 (800) 555-0199</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-row">
+          <p data-i18n="footerBrand">Northstar Truck Agency</p>
+          <p data-i18n="footerText">Responsive freight coordination for growing supply chains.</p>
+          <p><span id="currentYear"></span> <span data-i18n="footerRights">All rights reserved.</span></p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
