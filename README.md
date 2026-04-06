@@ -47,7 +47,7 @@ This site was created as a demo project to showcase:
 
 Add your deployed link here after publishing:
 
-`https://your-live-demo-link.com`
+`https://northtruck.netlify.app`
 
 ## GitHub Repository
 
